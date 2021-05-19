@@ -1,0 +1,6 @@
+{
+  "name": "justine-app",
+  "stage": "dev",
+  "region": "eu-west-1",
+  "lint": true
+}
