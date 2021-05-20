@@ -9,3 +9,5 @@ test("Test Stack", () => {
   // THEN
   expect(stack).to(haveResource("AWS::Lambda::Function"));
 });
+
+
