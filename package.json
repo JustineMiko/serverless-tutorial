@@ -1,7 +1,7 @@
 {
   "name": "justine-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "sst test",
     "start": "sst start",
@@ -11,7 +11,9 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.98.0",
-    "serverless-bundle": "^4.3.1"
+    "serverless-bundle": "^4.3.1",
+    "serverless-dotenv-plugin": "^3.9.0",
+    "serverless-offline": "^7.0.0"
   },
   "dependencies": {
     "@aws-cdk/aws-iam": "1.98.0",
